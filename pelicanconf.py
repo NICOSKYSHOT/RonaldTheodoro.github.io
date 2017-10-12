@@ -22,10 +22,15 @@ AUTHOR_FEED_RSS = None
 # Blogroll
 # LINKS = ()
 
+ARTICLE_URL = 'posts/{slug}'
+ARTICLE_SAVE_AS = ARTICLE_URL
+ARTICLE_LANG_URL = 'posts/{slug}-{lang}'
+ARTICLE_LANG_SAVE_AS = ARTICLE_LANG_URL
+
 # Social widget
-SOCIAL = (
-    ('Github', 'https://github.com/RonaldTheodoro'),
-    ('Twitter', 'https://twitter.com/ronaldtheodoro'),
+ICONS = (
+    ('github', 'https://github.com/RonaldTheodoro'),
+    ('twitter', 'https://twitter.com/ronaldtheodoro'),
 )
 
 DEFAULT_PAGINATION = 10
