@@ -22,11 +22,6 @@ AUTHOR_FEED_RSS = None
 # Blogroll
 # LINKS = ()
 
-ARTICLE_URL = 'posts/{slug}'
-ARTICLE_SAVE_AS = ARTICLE_URL
-ARTICLE_LANG_URL = 'posts/{slug}-{lang}'
-ARTICLE_LANG_SAVE_AS = ARTICLE_LANG_URL
-
 # Social widget
 ICONS = (
     ('github', 'https://github.com/RonaldTheodoro'),
